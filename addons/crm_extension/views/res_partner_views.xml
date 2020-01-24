@@ -11,7 +11,7 @@
                 <field name="address1" placeholder="Address 1"/>
             </field>
             <field name="street2" position="after">
-                <field name="municipality" placeholder="Municipality"/>
+                <field name="municipality"/>
             </field>
             <field name="vat" position="after">
                 <field name="level"/>
@@ -28,10 +28,13 @@
                 <field name="level"/>
             </field>
             <field name="level" position="after">
-                <field name="address1" placeholder="Address 1"/>
+                <field name="address1"/>
             </field>
             <field name="address1" position="after">
-                <field name="municipality" placeholder="Municipality"/>
+                <field name="municipality"/>
+            </field>
+            <field name="municipality" position="after">
+                <field name="stree"/>
             </field>
         </field>
     </record>

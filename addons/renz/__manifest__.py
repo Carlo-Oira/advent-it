@@ -2,5 +2,5 @@
 
 {
     'name': "Renz",
-    'depends': ['base', 'crm']
+    'depends': ['base']
 }

@@ -1,3 +1,4 @@
 {
-    'name': "Partner Inherit"
+    'name': "Partner Inherit",
+    'depends': ['crm']
 }

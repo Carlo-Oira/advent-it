@@ -2,6 +2,7 @@
 
 from odoo import fields, models
 
+
 class PartnerInherit(models.Model):
     _inherit = 'res.partner'
     

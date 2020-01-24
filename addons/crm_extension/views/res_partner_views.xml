@@ -7,6 +7,9 @@
         <field name="type">form</field>
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
+            <label name="address_name" position="attributes">
+                <attribute name='string'>Student Address</attribute>
+            </label>
             <field name="street" position="before">
                 <field name="address1" placeholder="Address 1"/>
             </field>

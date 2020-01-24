@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': "Partner Inherit",
+    'name': "Renz",
     'depends': ['crm']
 }

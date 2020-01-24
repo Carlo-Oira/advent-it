@@ -24,6 +24,9 @@
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_tree"/>
         <field name="arch" type="xml">
+            <field name="email" position="attributes">
+                <attribute name='invisible'>True</attribute>
+            </field>
             <field name="email" position="after">
                 <field name="level"/>
             </field>
@@ -34,7 +37,7 @@
                 <field name="municipality"/>
             </field>
             <field name="municipality" position="after">
-                <field name="stree"/>
+                <field name="street"/>
             </field>
         </field>
     </record>

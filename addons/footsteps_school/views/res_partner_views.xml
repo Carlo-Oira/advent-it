@@ -27,6 +27,12 @@
             <field name="email" position="after">
                 <field name="level"/>
             </field>
+            <field name="level" position="after">
+                <field name="street"/>
+            </field>
+            <field name="street" position="after">
+                <field name="city"/>
+            </field>
         </field>
     </record>
 
